@@ -1,0 +1,9 @@
+{
+  "private": {
+},
+  "public": {
+    "ga": {
+      "account": "UA-XXXXXXX-X"
+    }
+  }
+}

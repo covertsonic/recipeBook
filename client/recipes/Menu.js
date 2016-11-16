@@ -2,14 +2,14 @@
 
 //Meteor.subscribe('recipes'); //don't want to pull all of recipes for performative reasons.
 
-Template.MenuItem.onCreated(function () {
+Template.Menu.onCreated(function () {
     let self = this;
     self.autorun(function () { //unsubscribe from old subscriptions
         self.subscribe('recipes');
     })
 });
 
-Template.MenuItem.helpers({
+Template.Menu.helpers({
     recipes: () => {
         xyz = Recipes.find({
             inMenu: true

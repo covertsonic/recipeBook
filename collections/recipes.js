@@ -1,3 +1,5 @@
+//file stores collections and methods
+
 Recipes = new Mongo.Collection('recipes');
 
 Recipes.allow({
@@ -71,6 +73,9 @@ Meteor.methods({
             }
 
         });
+    },
+    deleteRecipe: function (id){
+        Recipes.remove(id);
     }
 });
 

@@ -21,8 +21,10 @@ shell-server@0.2.1            # Server-side component of the `meteor shell` comm
 #autopublish@1.0.7             # Publish all data to the clients (for prototyping)
 #insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
 
-## custom stuff:
+
 #stolinski:stylus-multi      #video guy prefers to work in stylus - Meteor hung when Ty Short installed this.
+mquandalle:stylus           #alternative in case the stolinski doesn't work.  THIS ONE KIND OF WORKS.  PADDING IN TEMPLATE DOESN'T WORK.
+
 
 
 kadira:flow-router          #sets up routes
@@ -30,7 +32,6 @@ kadira:blaze-layout
 coffeescript@1.11.1_3
 cosmos:browserify
 erasaur:meteor-lodash
-mquandalle:stylus           #alternative in case the stolinski doesn't work.
 fortawesome:fontawesome     #beautiful buttons
 spiderable@1.0.14-release-testing.0
 fastclick@1.0.13
